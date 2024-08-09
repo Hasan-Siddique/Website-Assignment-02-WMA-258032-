@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #000; */
+}
+
+
+
+.header {
+    border: 3px groove orange;
+    background-color: #000;
+    height: 95px;
+}
+
+.logo_img {
+    width: 190px;
+    height: 90px;
+    margin-left: 120px;
+}
+
+ul {
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar {
+    padding-top: 40px;
+    margin-left: 70px;
+}
+
+.header,
+.navbar {
+    display: flex;
+}
+
+.Btn {
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+
+.btn1 {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 45px;
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: 1px solid red;
+    padding: 12px;
+    border-radius: 45px;
+    background-color: red;
+    color: #ffffff;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+i {
+    background-color: #ffffff;
+    color: red;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.banner>img {
+    width: 100%;
+    opacity: 0.8;
+}
+
+/* .banner,
+.images {
+    display: flex;
+} */
+
+.brands {
+    background-color: #000;
+    text-align: center;
+    color: #ffffff;
+    height: 550px;
+    margin-top: -5px;
+}
+
+.para {
+    padding-top: 110px;
+    font-size: 40px;
+}
+
+.para1 {
+    font-size: 35px;
+}
+
+.font {
+    font-size: 60px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 800px;
+    font-style: normal;
+}
+
+.img1,
+.img2,
+.img3 {
+    height: 160px;
+    width: 280px;
+    float: left;
+    margin-left: 40px;
+    border-radius: 3px;
+    border: 1px solid orangered;
+}
+
+.cards {
+ 
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.card_btn{
+    background-color: #000;
+    height: 100px;
+    
+}
+
+.b1,.b2,.b3{
+    padding: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.b1{
+    margin-left: 300px;
+}
+
+.b2{
+    margin-left: 200px;
+}
+
+.b3{
+    margin-left: 200px;
+}
